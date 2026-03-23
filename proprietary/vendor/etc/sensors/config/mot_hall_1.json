@@ -1,0 +1,75 @@
+{
+  "config":{
+    "hw_platform": ["MTP", "Surf", "RCM", "QRD"],
+    "soc_id": ["457", "482"]
+  },
+  "mot_hall_1":{
+    "owner": "mot_hall",
+    ".hall":{
+      "owner": "mot_hall",
+      ".config":{
+        "owner": "mot_hall",
+        "is_dri":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "hw_id":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "res_idx":{ "type": "int", "ver": "0",
+          "data": "1"
+        },
+        "sync_stream":{ "type": "int", "ver": "0",
+          "data": "0"
+        }
+      }
+    }
+  },
+  "mot_hall_1_platform":{
+    "owner": "mot_hall",
+    ".config":{
+      "owner": "mot_hall",
+      "mot_hall_name":{ "type": "str", "ver": "0",
+        "data": "Folio Attach"
+      },
+      "chip_irq_num":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "dri_irq_num":{ "type": "int", "ver": "0",
+        "data": "50"
+      },
+      "irq_high_val":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "dri_irq_num_2":{ "type": "int", "ver": "0",
+        "data": "51"
+      },
+      "irq_high_val_2":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_pull_type":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_is_chip_pin":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "irq_drive_strength":{ "type": "int", "ver": "0",
+        "data": "0"
+      },
+      "irq_trigger_type":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "num_rail":{ "type": "int", "ver": "0",
+        "data": "1"
+      },
+      "vddio_rail":{ "type": "str", "ver": "0",
+        "data": "/pmic/client/sensor_vddio"
+      },
+      "rail_on_state":{ "type": "int", "ver": "0",
+        "data": "2"
+      },
+      "rigid_body_type":{ "type": "int", "ver": "0",
+        "data": "1"
+      }
+    }
+  }
+}
