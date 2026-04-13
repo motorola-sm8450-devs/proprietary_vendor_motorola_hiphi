@@ -3135,6 +3135,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/hiphi/proprietary/product/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/deviceowner-configuration-com.motorola.camera3.xml \
     vendor/motorola/hiphi/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera3.xml \
     vendor/motorola/hiphi/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml \
+    vendor/motorola/hiphi/proprietary/recovery/root/vendor/firmware/goodix-csot-gt9916-2201060e-61d6a5fe-hiphic.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/goodix-csot-gt9916-2201060e-61d6a5fe-hiphic.bin \
     vendor/motorola/hiphi/proprietary/recovery/root/vendor/firmware/goodix-csot-gt9916-22021011-625d38a-hiphi.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/goodix-csot-gt9916-22021011-625d38a-hiphi.bin \
     vendor/motorola/hiphi/proprietary/recovery/root/vendor/firmware/goodix-tianma-gt9916-22021011-625d463-hiphi.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/goodix-tianma-gt9916-22021011-625d463-hiphi.bin \
     vendor/motorola/hiphi/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
@@ -3169,7 +3170,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/hiphi/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc \
     vendor/motorola/hiphi/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
     vendor/motorola/hiphi/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
+    vendor/motorola/hiphi/proprietary/vendor/etc/libnfc-hal-st54j.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st54j.conf \
     vendor/motorola/hiphi/proprietary/vendor/etc/libnfc-nci-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci-st.conf \
+    vendor/motorola/hiphi/proprietary/vendor/etc/libnfc-nci-st54j.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci-st54j.conf \
     vendor/motorola/hiphi/proprietary/vendor/etc/permissions/com.motorola.camera3.content.ai.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.content.ai.xml \
     vendor/motorola/hiphi/proprietary/vendor/etc/permissions/com.motorola.camera3.hiphi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.hiphi.xml \
     vendor/motorola/hiphi/proprietary/vendor/etc/permissions/com.motorola.camera3.lens.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.motorola.camera3.lens.xml \
@@ -3237,19 +3240,24 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/hiphi/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/motorola/hiphi/proprietary/vendor/etc/st21nfc_conf_ds.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf_ds.txt \
     vendor/motorola/hiphi/proprietary/vendor/etc/st21nfc_conf_ss.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf_ss.txt \
+    vendor/motorola/hiphi/proprietary/vendor/etc/st54j_conf_ds.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54j_conf_ds.txt \
+    vendor/motorola/hiphi/proprietary/vendor/etc/st54j_conf_ss.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st54j_conf_ss.txt \
     vendor/motorola/hiphi/proprietary/vendor/etc/thermal-engine-hiphi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-hiphi.conf \
     vendor/motorola/hiphi/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/motorola/hiphi/proprietary/vendor/firmware/cps4035.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cps4035.bin \
     vendor/motorola/hiphi/proprietary/vendor/firmware/csot_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_cfg_group.bin \
     vendor/motorola/hiphi/proprietary/vendor/firmware/csot_goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_test_limits_255.csv \
     vendor/motorola/hiphi/proprietary/vendor/firmware/csot_stm_fts_production_limits.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_stm_fts_production_limits.csv \
+    vendor/motorola/hiphi/proprietary/vendor/firmware/goodix-csot-gt9916-2201060e-61d6a5fe-hiphic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-csot-gt9916-2201060e-61d6a5fe-hiphic.bin \
     vendor/motorola/hiphi/proprietary/vendor/firmware/goodix-csot-gt9916-22021011-625d38a-hiphi.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-csot-gt9916-22021011-625d38a-hiphi.bin \
     vendor/motorola/hiphi/proprietary/vendor/firmware/goodix-tianma-gt9916-22021011-625d463-hiphi.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-tianma-gt9916-22021011-625d463-hiphi.bin \
     vendor/motorola/hiphi/proprietary/vendor/firmware/mot_dw9781c.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_dw9781c.prog \
     vendor/motorola/hiphi/proprietary/vendor/firmware/novatek_spi_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_spi_fw.bin \
     vendor/motorola/hiphi/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
     vendor/motorola/hiphi/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
+    vendor/motorola/hiphi/proprietary/vendor/firmware/st54j_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st54j_fw.bin \
     vendor/motorola/hiphi/proprietary/vendor/firmware/stmicro-csot-fts3639-21111422-00141022-hiphi.ftb:$(TARGET_COPY_OUT_VENDOR)/firmware/stmicro-csot-fts3639-21111422-00141022-hiphi.ftb \
+    vendor/motorola/hiphi/proprietary/vendor/firmware/stmicro-csot-fts3639-22010628-ab151028-hiphic.ftb:$(TARGET_COPY_OUT_VENDOR)/firmware/stmicro-csot-fts3639-22010628-ab151028-hiphic.ftb \
     vendor/motorola/hiphi/proprietary/vendor/firmware/tianma_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tianma_goodix_cfg_group.bin \
     vendor/motorola/hiphi/proprietary/vendor/firmware/tianma_goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/tianma_goodix_test_limits_255.csv \
     vendor/motorola/hiphi/proprietary/vendor/lib64/camera/arcsoft_dc_calibration_u.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/arcsoft_dc_calibration_u.bin \
