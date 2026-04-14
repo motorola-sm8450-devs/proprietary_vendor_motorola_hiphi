@@ -3136,6 +3136,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/hiphi/proprietary/product/etc/permissions/privapp-permissions-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-com.motorola.camera3.xml \
     vendor/motorola/hiphi/proprietary/product/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/hiddenapi-whitelist-com.motorola.camera3.xml \
     vendor/motorola/hiphi/proprietary/recovery/root/vendor/firmware/goodix-csot-gt9916-2201060e-61d6a5fe-hiphic.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/goodix-csot-gt9916-2201060e-61d6a5fe-hiphic.bin \
+    vendor/motorola/hiphi/proprietary/recovery/root/vendor/firmware/goodix-csot-gt9916-2201060e-61d6a5fe-hiphid.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/goodix-csot-gt9916-2201060e-61d6a5fe-hiphid.bin \
     vendor/motorola/hiphi/proprietary/recovery/root/vendor/firmware/goodix-csot-gt9916-22021011-625d38a-hiphi.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/goodix-csot-gt9916-22021011-625d38a-hiphi.bin \
     vendor/motorola/hiphi/proprietary/recovery/root/vendor/firmware/goodix-tianma-gt9916-22021011-625d463-hiphi.bin:$(TARGET_COPY_OUT_RECOVERY)/root/vendor/firmware/goodix-tianma-gt9916-22021011-625d463-hiphi.bin \
     vendor/motorola/hiphi/proprietary/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.motorola.motosignature.xml \
@@ -3249,6 +3250,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/hiphi/proprietary/vendor/firmware/csot_goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_test_limits_255.csv \
     vendor/motorola/hiphi/proprietary/vendor/firmware/csot_stm_fts_production_limits.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_stm_fts_production_limits.csv \
     vendor/motorola/hiphi/proprietary/vendor/firmware/goodix-csot-gt9916-2201060e-61d6a5fe-hiphic.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-csot-gt9916-2201060e-61d6a5fe-hiphic.bin \
+    vendor/motorola/hiphi/proprietary/vendor/firmware/goodix-csot-gt9916-2201060e-61d6a5fe-hiphid.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-csot-gt9916-2201060e-61d6a5fe-hiphid.bin \
     vendor/motorola/hiphi/proprietary/vendor/firmware/goodix-csot-gt9916-22021011-625d38a-hiphi.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-csot-gt9916-22021011-625d38a-hiphi.bin \
     vendor/motorola/hiphi/proprietary/vendor/firmware/goodix-tianma-gt9916-22021011-625d463-hiphi.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-tianma-gt9916-22021011-625d463-hiphi.bin \
     vendor/motorola/hiphi/proprietary/vendor/firmware/mot_dw9781c.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_dw9781c.prog \
